@@ -2,8 +2,18 @@
 project ("CMakeSystemCProject")
 include_directories("src") 
 add_executable ("CMakeSystemCProject" 
-    # project h-files and cpp-files
-    # TODO: add project files
+    # project h- and cpp-files
+    "numgen.h"
+    "stage1.h"
+    "stage2.h"
+    "stage3.h"
+    "display.h"
+    "numgen.cpp"
+    "stage1.cpp"
+    "stage2.cpp"
+    "stage3.cpp"
+    "display.cpp"
+    "main.cpp"
     
     # SystemC 1.0 h-files
     "src/numeric_bit/fx/fx.h"
