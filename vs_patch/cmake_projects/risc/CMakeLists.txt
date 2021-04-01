@@ -2,8 +2,29 @@
 project ("CMakeSystemCProject")
 include_directories("src") 
 add_executable ("CMakeSystemCProject" 
-    # project h-files and cpp-files
-    # TODO: add project files
+    # project h- and cpp-files
+    "directive.h"
+    "bios.h"
+    "dcache.h"
+    "decode.h"
+    "exec.h"
+    "fetch.h"
+    "floating.h"
+    "icache.h"
+    "mmxu.h"
+    "paging.h"
+    "pic.h"
+    "bios.cpp"
+    "dcache.cpp"
+    "decode.cpp"
+    "exec.cpp"
+    "fetch.cpp"
+    "floating.cpp"
+    "icache.cpp"
+    "mmxu.cpp"
+    "paging.cpp"
+    "pic.cpp"
+    "main.cpp"
     
     # SystemC 1.0 h-files
     "src/numeric_bit/fx/fx.h"
