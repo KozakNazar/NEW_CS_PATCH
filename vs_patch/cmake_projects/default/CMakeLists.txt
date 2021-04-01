@@ -2,7 +2,7 @@
 project ("CMakeSystemCProject")
 include_directories("src") 
 add_executable ("CMakeSystemCProject" 
-    # project h-files and cpp-files
+    # project h- and cpp-files
     # TODO: add project files
     
     # SystemC 1.0 h-files
